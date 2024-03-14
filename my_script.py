@@ -5,9 +5,9 @@ import logging
 import numpy as np
 import pandas as pd
 
-bookpath= os.path.join(os.getcwd(),"RecommendationSystem", "Books.csv")
-userpath = os.path.join(os.getcwd(),"RecommendationSystem", "Users.csv")
-ratingspath= os.path.join(os.getcwd(),"RecommendationSystem", "Ratings.csv")
+bookpath= os.path.join(os.getcwd(), "Books.csv")
+userpath = os.path.join(os.getcwd(), "Users.csv")
+ratingspath= os.path.join(os.getcwd(), "Ratings.csv")
 books = pd.read_csv(bookpath,low_memory=False)
 users = pd.read_csv(userpath)
 ratings= pd.read_csv(ratingspath)
